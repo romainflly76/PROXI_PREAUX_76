@@ -86,13 +86,15 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+     
+     
      #relative {
         position: relative;
         background-image: url("../img/120004751_115723910277854_7140350768324115906_n.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 45vh;
+        height: 30vh;
       }
       
       #layer {
@@ -107,7 +109,7 @@
       
       #logo {
         position: absolute;
-        height: 40%;
+        height: 30%;
         top:30%;
         left:0; right:0;
         margin: auto;
@@ -116,6 +118,12 @@
       h1 {
         text-align: center;
         margin: 1em auto 1em;
+        font-size: large;
+      }
+      h2 {
+        text-align: center;
+        margin: 1em auto 1em;
+        font-size: large;
       }
       h4 {
         text-align: center;
@@ -141,7 +149,7 @@
   #carouselExampleDark {
     
     margin: auto;
-    width: 50vw;
+    width: 70vw;
     height: auto;
     margin-top: 5vh;
     
@@ -158,6 +166,48 @@
     opacity: 0.4;
   }
   
+  @media screen and (min-width: 770px) {
+
+    #logo {
+      position: absolute;
+      height: 40%;
+      top:30%;
+      left:0; right:0;
+      margin: auto;
+    }
+
+    #relative {
+      position: relative;
+      background-image: url("../img/120004751_115723910277854_7140350768324115906_n.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 45vh;
+    }
+    
+    #layer {
+      width: 100%;
+      height:100%;
+      background-color: white;
+      position: absolute;
+      top: 0%; right: 0%;
+      opacity: 40%;
+    
+    }
+    #carouselExampleDark {
+    
+      margin: auto;
+      width: 50vw;
+      height: auto;
+      margin-top: 5vh; 
+    }
+    h1 {
+      text-align: center;
+      margin: 1em auto 1em;
+      font-size: xx-large;
+    }
+
+  }
   /*********************** MAP GOOGLE *********************/
 
   #map {
