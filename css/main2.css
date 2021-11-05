@@ -108,7 +108,7 @@
       #logo {
         position: absolute;
         height: 40%;
-        top:30%;
+        top: 30%;
         left:0; right:0;
         margin: auto;
       }
@@ -141,7 +141,7 @@
   #carouselExampleDark {
     
     margin: auto;
-    width: 50vw;
+    width: 60vw;
     height: auto;
     margin-top: 5vh;
     
@@ -149,13 +149,9 @@
   
   .articles {
     margin: auto;
-    width: 60vw;
+    width: 80vw;
     height: auto;
     margin-top: 5vh;
-  }
-  
-  #opaque{
-    opacity: 0.4;
   }
   
   /*********************** MAP GOOGLE *********************/
