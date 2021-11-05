@@ -159,6 +159,11 @@
   }
   
   /*********************** MAP GOOGLE *********************/
+
+  #map {
+    margin: auto;
+  }
+
   .map-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
@@ -173,7 +178,17 @@
     width:100%;
     position:absolute;
     }
+/*************************** Video ********************************/
+
+#video {
+    
+  margin: auto;
+  width: 50vw;
+  height: auto;
+  margin-top: 10vh;
   
+}
+
   /****************************** Rules Footer ***********************/
   
   #footerLarge {
